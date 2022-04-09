@@ -16,7 +16,13 @@
 1. Individual order management by table and user.
 1. Process management based on Restaurant Production Center.
 1. Real time based on the user's activity when the restaurant areas are modified or when the user interacts with it.
+If you have erpnext v13 + installed, the installation is simple.
 
+You must first install the app frappe_helper:
+bench get-app https://github.com/quantumbitcore/frappe_helper.git
+
+Then the restaurant application:
+bench get-app https://github.com/quantumbitcore/erpnext-restaurant.git
 
 ---
 ### ERPNext Restaurant Management requires
